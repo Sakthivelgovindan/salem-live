@@ -11,17 +11,17 @@ export const HomeNavigator = createStackNavigator({
 });
 
 export const SignInNavigator = createStackNavigator({
-  Settings: {screen: SignInBoard},
+  SignIn: {screen: SignInBoard},
 });
 
 export const LoginNavigator = createStackNavigator({
-  Settings: {screen: LoginBoard},
+  Login: {screen: LoginBoard},
 });
 
 export const FeedNavigator = createStackNavigator({
-  Settings: {screen: FeedBoard},
+  Feed: {screen: FeedBoard},
 });
 
 export const CreatePostNavigator = createStackNavigator({
-  Settings: {screen: CreatePostBoard},
+  Create: {screen: CreatePostBoard},
 });
